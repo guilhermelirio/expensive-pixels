@@ -1,0 +1,265 @@
+{
+	"parameters": [
+		"size"
+	],
+	"items": [
+		{
+			"type": "Container",
+			"width": "100vw",
+			"height": "${size}vw",
+			"direction": "column",
+			"items": [
+				{
+					"type": "Container",
+					"width": "100vw",
+					"height": "${size}vw",
+					"justifyContent": "center",
+					"direction": "row",
+					"items": [
+						{
+							"type": "Frame",
+							"width": "${size}vw",
+							"height": "${size}vw",
+							"grow": 1,
+							"shrink": 1,
+							"backgroundColor": "@myDarkRed",
+							"items": {
+								"type": "Text",
+								"text": "E",
+								"color": "@myWhite",
+								"fontSize": "${size}vw",
+								"fontWeight": "600",
+								"textAlign": "center"
+							}
+						},
+						{
+							"type": "Frame",
+							"width": "${size}vw",
+							"height": "${size}vw",
+							"backgroundColor": "@myWhite",
+							"grow": 1,
+							"shrink": 1,
+							"items": {
+								"type": "Text",
+								"text": "X",
+								"color": "@myRed",
+								"fontSize": "${size}vw",
+								"fontWeight": "600",
+								"textAlign": "center"
+							}
+						},
+						{
+							"type": "Frame",
+							"width": "${size}vw",
+							"height": "${size}vw",
+							"backgroundColor": "@myLightOrange",
+							"grow": 1,
+							"shrink": 1,
+							"items": {
+								"type": "Text",
+								"text": "P",
+								"color": "@myWhite",
+								"fontSize": "${size}vw",
+								"fontWeight": "600",
+								"textAlign": "center"
+							}
+						},
+						{
+							"type": "Frame",
+							"width": "${size}vw",
+							"height": "${size}vw",
+							"backgroundColor": "@myWhite",
+							"grow": 1,
+							"shrink": 1,
+							"items": {
+								"type": "Text",
+								"text": "E",
+								"color": "@myOrange",
+								"fontSize": "${size}vw",
+								"fontWeight": "600",
+								"textAlign": "center"
+							}
+						},
+						{
+							"type": "Frame",
+							"width": "${size}vw",
+							"height": "${size}vw",
+							"backgroundColor": "@myDarkOrange",
+							"grow": 1,
+							"shrink": 1,
+							"items": {
+								"type": "Text",
+								"text": "N",
+								"color": "@myWhite",
+								"fontSize": "${size}vw",
+								"fontWeight": "600",
+								"textAlign": "center"
+							}
+						},
+						{
+							"type": "Frame",
+							"width": "${size}vw",
+							"height": "${size}vw",
+							"backgroundColor": "@myWhite",
+							"grow": 1,
+							"shrink": 1,
+							"items": {
+								"type": "Text",
+								"text": "S",
+								"color": "@myYellow",
+								"fontSize": "${size}vw",
+								"fontWeight": "600",
+								"textAlign": "center"
+							}
+						},
+						{
+							"type": "Frame",
+							"width": "${size}vw",
+							"height": "${size}vw",
+							"backgroundColor": "@myRed",
+							"grow": 1,
+							"shrink": 1,
+							"items": {
+								"type": "Text",
+								"text": "I",
+								"color": "@myWhite",
+								"fontSize": "${size}vw",
+								"fontWeight": "600",
+								"textAlign": "center"
+							}
+						},
+						{
+							"type": "Frame",
+							"width": "${size}vw",
+							"height": "${size}vw",
+							"backgroundColor": "@myWhite",
+							"grow": 1,
+							"shrink": 1,
+							"items": {
+								"type": "Text",
+								"text": "V",
+								"color": "@myOrange",
+								"fontSize": "${size}vw",
+								"fontWeight": "600",
+								"textAlign": "center"
+							}
+						},
+						{
+							"type": "Frame",
+							"width": "${size}vw",
+							"height": "${size}vw",
+							"backgroundColor": "@myDarkRed",
+							"grow": 1,
+							"shrink": 1,
+							"items": {
+								"type": "Text",
+								"text": "E",
+								"color": "@myWhite",
+								"fontSize": "${size}vw",
+								"fontWeight": "600",
+								"textAlign": "center"
+							}
+						},
+						{
+							"type": "Frame",
+							"width": "${size}vw",
+							"height": "${size}vw",
+							"backgroundColor": "@myWhite",
+							"grow": 1,
+							"shrink": 1,
+							"items": {
+								"type": "Text",
+								"text": "P",
+								"color": "@myDarkBlue",
+								"fontSize": "${size}vw",
+								"fontWeight": "600",
+								"textAlign": "center",
+								"position": "relative"
+							}
+						},
+						{
+							"type": "Frame",
+							"width": "${size}vw",
+							"height": "${size}vw",
+							"backgroundColor": "@myBlue",
+							"grow": 1,
+							"shrink": 1,
+							"items": {
+								"type": "Text",
+								"text": "I",
+								"color": "@myWhite",
+								"fontSize": "${size}vw",
+								"fontWeight": "600",
+								"textAlign": "center"
+							}
+						},
+						{
+							"type": "Frame",
+							"width": "${size}vw",
+							"height": "${size}vw",
+							"backgroundColor": "@myWhite",
+							"grow": 1,
+							"shrink": 1,
+							"items": {
+								"type": "Text",
+								"text": "X",
+								"color": "@myDarkPurple",
+								"fontSize": "${size}vw",
+								"fontWeight": "600",
+								"textAlign": "center"
+							}
+						},
+						{
+							"type": "Frame",
+							"width": "${size}vw",
+							"height": "${size}vw",
+							"backgroundColor": "@myPink",
+							"grow": 1,
+							"shrink": 1,
+							"items": {
+								"type": "Text",
+								"text": "E",
+								"color": "@myWhite",
+								"fontSize": "${size}vw",
+								"fontWeight": "600",
+								"textAlign": "center"
+							}
+						},
+						{
+							"type": "Frame",
+							"width": "${size}vw",
+							"height": "${size}vw",
+							"backgroundColor": "@myWhite",
+							"grow": 1,
+							"shrink": 1,
+							"items": {
+								"type": "Text",
+								"text": "L",
+								"color": "@myBlue",
+								"fontSize": "${size}vw",
+								"fontWeight": "600",
+								"textAlign": "center"
+							}
+						},
+						{
+							"type": "Frame",
+							"width": "${size}vw",
+							"height": "${size}vw",
+							"backgroundColor": "@myPurple",
+							"grow": 1,
+							"shrink": 1,
+							"items": {
+								"type": "Text",
+								"text": "S",
+								"color": "@myWhite",
+								"fontSize": "${size}vw",
+								"fontWeight": "600",
+								"textAlign": "center"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+};

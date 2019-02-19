@@ -1,0 +1,51 @@
+{
+  "version": "1.0",
+  "type": "CONSUMABLE",
+  "referenceName": "coins",
+  "publishingInformation": {
+    "locales": {
+      "en-US": {
+        "name": "100 Pixel Coins",
+        "summary": "100 Pixel Coins that you can spend on pixels!",
+        "description": "Pixel coins can be spent on pixels.",
+        "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/359b/03bc430c730a4ad9b8f77d99c9cd3219/APP_ICON?versionId=V.LXM.W4wgVEXwPoAqYje6_nlL.V2KrZ&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1549993890&Signature=gSMyH6hhduI56aHwKXwVZuBZijY%3D",
+        "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/3729/91b6284c8d1749a685491bd42a14f30e/APP_ICON_LARGE?versionId=foTkZtx93it0GF4yGPkebz.2SpTxapm2&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1549993890&Signature=uiW2oXWVDTy3Ag5PfluDvD7xTQw%3D",
+        "examplePhrases": [
+          "Alexa, buy coins",
+          "Alexa, buy more coins"
+        ],
+        "keywords": [
+          "coins"
+        ],
+        "customProductPrompts": {
+          "purchasePromptDescription": "Would you like to buy 100 pixel coins?",
+          "boughtCardDescription": "Your account has been credited 100 pixel coins."
+        }
+      }
+    },
+    "distributionCountries": [
+      "US"
+    ],
+    "pricing": {
+      "amazon.com": {
+        "releaseDate": "2019-02-08T00:00Z",
+        "defaultPriceListing": {
+          "price": 9.99,
+          "currency": "USD"
+        }
+      }
+    },
+    "taxInformation": {
+      "category": "SOFTWARE"
+    }
+  },
+  "privacyAndCompliance": {
+    "locales": {
+      "en-US": {
+        "privacyPolicyUrl": "https://developer.amazon.com/privacy"
+      }
+    }
+  },
+  "testingInstructions": "TODO: REPLACE THIS WITH TESTING INSTRUCTIONS FOR THE CERTIFICATION TEAM SO THEY KNOW HOW TO PURCHASE AND USE THIS PRODUCT",
+  "purchasableState": "PURCHASABLE"
+}

@@ -1,0 +1,51 @@
+{
+  "version": "1.0",
+  "type": "ENTITLEMENT",
+  "referenceName": "skill-access",
+  "publishingInformation": {
+    "locales": {
+      "en-US": {
+        "name": "Access",
+        "summary": "This gives you exclusive access to the Pixels skill",
+        "description": "With this exclusive access you are able to access the Expensive Pixels skill and start painting pixels.",
+        "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/3a35/2ed7f36b9ef14e9ea19371080f5f493b/APP_ICON?versionId=qVEQZOxfjAATjiFfza5U8y0IoI3dmEI1&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1549993893&Signature=MJWCvy9MAxUXqrFeMZD8Oi2%2F2ls%3D",
+        "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/76db/6226b6c7cbd54025972f6d8756978e31/APP_ICON_LARGE?versionId=2KTXNp4_mr6YSkSTHr7FtLKPseo3THzR&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1549993893&Signature=YDQig3BcsUXbTiensKLyn7RKnwo%3D",
+        "examplePhrases": [
+          "Alexa, open expensive pixels",
+          "Alexa, gain access"
+        ],
+        "keywords": [
+          "access"
+        ],
+        "customProductPrompts": {
+          "purchasePromptDescription": "This purchase unlocks access to the skill.",
+          "boughtCardDescription": "Congratulations, you now have access!"
+        }
+      }
+    },
+    "distributionCountries": [
+      "US"
+    ],
+    "pricing": {
+      "amazon.com": {
+        "releaseDate": "2019-02-08T00:00Z",
+        "defaultPriceListing": {
+          "price": 0.99,
+          "currency": "USD"
+        }
+      }
+    },
+    "taxInformation": {
+      "category": "SOFTWARE"
+    }
+  },
+  "privacyAndCompliance": {
+    "locales": {
+      "en-US": {
+        "privacyPolicyUrl": "http://www.amazon.com/privacy"
+      }
+    }
+  },
+  "testingInstructions": "TODO: REPLACE THIS WITH TESTING INSTRUCTIONS FOR THE CERTIFICATION TEAM SO THEY KNOW HOW TO PURCHASE AND USE THIS PRODUCT",
+  "purchasableState": "PURCHASABLE"
+}

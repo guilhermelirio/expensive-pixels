@@ -1,0 +1,138 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "expensive pixels",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "PaintPixelsIntent",
+          "slots": [
+            {
+              "name": "pixelCount",
+              "type": "AMAZON.NUMBER",
+              "samples": [
+                "{pixelCount} pixels",
+                "paint {pixelCount} pixels",
+                "{pixelCount}"
+              ]
+            }
+          ],
+          "samples": [
+            "paint {pixelCount} pixels",
+            "i want to paint {pixelCount} pixels",
+            "paint pixels",
+            "paint some pixels"
+          ]
+        },
+        {
+          "name": "BuyCoinsIntent",
+          "slots": [],
+          "samples": [
+            "purchase more coins",
+            "purchase coins",
+            "buy more money",
+            "i need money",
+            "i need more coins",
+            "please buy coins",
+            "buy more coins",
+            "I want to buy coins"
+          ]
+        },
+        {
+          "name": "BuyPremiumIntent",
+          "slots": [],
+          "samples": [
+            "purchase the subscription",
+            "purchase subscription",
+            "buy premium",
+            "buy subscription",
+            "purchase a super pixel subscription",
+            "buy the super pixel subscription",
+            "i want the super pixel subscription",
+            "i want to buy the subscription",
+            "i want super pixels",
+            "I want to go premium"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "ViewCollectionIntent",
+          "slots": [],
+          "samples": [
+            "show me my collection",
+            "show my collection",
+            "show me my pixels",
+            "i want to see my pixels"
+          ]
+        }
+      ],
+      "types": []
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "PaintPixelsIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "pixelCount",
+              "type": "AMAZON.NUMBER",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1060584216475.128476938706"
+              }
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.1060584216475.128476938706",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "How many pixels?"
+          },
+          {
+            "type": "PlainText",
+            "value": "How many do you want to paint?"
+          },
+          {
+            "type": "PlainText",
+            "value": "How many pixels do you want to paint?"
+          }
+        ]
+      }
+    ]
+  }
+}

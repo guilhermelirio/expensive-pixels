@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "type": "SUBSCRIPTION",
+  "referenceName": "premium",
+  "subscriptionInformation": {
+    "subscriptionPaymentFrequency": "MONTHLY",
+    "subscriptionTrialPeriodDays": 7
+  },
+  "publishingInformation": {
+    "locales": {
+      "en-US": {
+        "name": "Premium Access",
+        "summary": "This turns your Pixel experience into a premium one by turning your pixels into SUPER pixels.",
+        "description": "This exclusive membership is only for PRO pixel fans. It turns your pixels into super pixels.",
+        "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/1cdb/e07514c62620467db17ea476eab296c9/APP_ICON?versionId=3wf52_wpZ1NGAmyK79_tDrGcHOtZM8Zf&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1549993892&Signature=1hZz0qcUTh5L9uN9YLRwSk2WRqs%3D",
+        "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/db54/20bca2e5680347af9004aa928d1a7f9b/APP_ICON_LARGE?versionId=bkC65Hz_wR45tr2sA3lx_FDg9WJVLX.3&AWSAccessKeyId=AKIAJFEYRBGIHK2BBYKA&Expires=1549993892&Signature=aFD37kLcZF6zmzwzGPaJ10EPQh8%3D",
+        "examplePhrases": [
+          "Alexa, purchase subscription",
+          "Alexa, buy premium"
+        ],
+        "keywords": [
+          "premium"
+        ],
+        "customProductPrompts": {
+          "purchasePromptDescription": "Premium turns your pixels into super pixels.",
+          "boughtCardDescription": "Wow, your pixels are SUPER!"
+        }
+      }
+    },
+    "distributionCountries": [
+      "US"
+    ],
+    "pricing": {
+      "amazon.com": {
+        "releaseDate": "2019-02-08T00:00Z",
+        "defaultPriceListing": {
+          "price": 3.99,
+          "currency": "USD"
+        }
+      }
+    },
+    "taxInformation": {
+      "category": "SOFTWARE"
+    }
+  },
+  "privacyAndCompliance": {
+    "locales": {
+      "en-US": {
+        "privacyPolicyUrl": "http://www.amazon.com/privacy"
+      }
+    }
+  },
+  "testingInstructions": "TODO: REPLACE THIS WITH TESTING INSTRUCTIONS FOR THE CERTIFICATION TEAM SO THEY KNOW HOW TO PURCHASE AND USE THIS PRODUCT",
+  "purchasableState": "PURCHASABLE"
+}
