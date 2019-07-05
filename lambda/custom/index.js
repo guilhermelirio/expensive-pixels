@@ -11,6 +11,8 @@ const BuyCoinsIntentHandler = require('./handlers/BuyCoinsIntentHandler')
 const BuyPremiumIntentHandler = require('./handlers/BuyPremiumIntentHandler')
 const YesIntentHandler = require('./handlers/YesIntentHandler')
 const NoIntentHandler = require('./handlers/NoIntentHandler')
+const WhatCanIBuyIntentHandler = require('./handlers/WhatCanIBuyIntentHandler')
+const GetCoinCountIntentHandler = require('./handlers/GetCoinCountIntentHandler')
 const ViewCollectionIntentHandler = require('./handlers/ViewCollectionIntentHandler')
 const LaunchRequestHandler = require('./handlers/LaunchRequestHandler')
 const SessionEndedHandler = require('./handlers/SessionEndedHandler')
@@ -33,6 +35,8 @@ exports.handler = skillBuilder
 		PaintPixelsIntentHandler,
 		BuyCoinsIntentHandler,
 		BuyPremiumIntentHandler,
+		WhatCanIBuyIntentHandler,
+		GetCoinCountIntentHandler,
 		YesIntentHandler,
 		NoIntentHandler,
 		ViewCollectionIntentHandler,

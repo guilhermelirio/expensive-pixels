@@ -29,7 +29,7 @@ const handler = {
 				say = 'You are among the lucky few to have access.';
 				const upsellMessage = 'However, it seems you are out of coins. In order to paint pixels you need to purchase coins. Do you want to proceed?'
 				return responseBuilder
-					.speak(say)
+					//.speak(say)
 					.addDirective({
 						type: 'Connections.SendRequest',
 						name: 'Upsell',
@@ -65,7 +65,7 @@ const handler = {
 				say += 'Welcome back!';
 			}
 
-			responseBuilder.addDirective({
+			return responseBuilder.addDirective({
 				type: 'Connections.SendRequest',
 				name: 'Upsell',
 				payload: {
@@ -75,7 +75,7 @@ const handler = {
 					upsellMessage: upsellMessage,
 				},
 				token: 'skillAccess',
-			})
+			}).getResponse();
 
 			return responseBuilder
 				.speak(say)
